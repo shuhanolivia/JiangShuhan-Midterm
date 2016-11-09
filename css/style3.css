@@ -34,8 +34,20 @@
 100% { left: -400%; }
 }
 
-div#form_sample{
+.form_sample{
+font-family:'Nueva Std',serif;
 text-align:center;
+border: 1px solid #B0AFAF;
+width: 300px;
+padding: 50px 36px;
+margin-top:30px;
+box-shadow: 0 0 15px;
+border-radius: 6px;
+float:left;
+}
+.form_sample1{
+font-family:'Nueva Std',serif;
+text-align:left;
 border: 1px solid #B0AFAF;
 width: 300px;
 padding: 50px 36px;
