@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Open+Sans');
+
+
+#heading {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px 0 150px 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(http://www.fullhdwpp.com/wp-content/uploads/Brooklyng-Bridge_www.FullHDWpp.com_.jpg);
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+  line-height: 2;
+}
+
+.content-blocks {
+  position: relative;
+}
+
+.content-block {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  max-width: 500px;
+  padding: 30px;
+  position: relative;
+  color: #fafafa;
+}
+@media (min-width: 850px) {
+  .content-block {
+    margin-left: -250px;
+  }
+}
+.content-block:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  mix-blend-mode: overlay;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.4);
+}
+.content-block h2 {
+  margin: 0;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 5em;
+  line-height: 1;
+  font-weight: bolder;
+}
+.content-block p {
+  letter-spacing: 1px;
+  padding-right: 20px;
+}
+.content-block--small {
+  position: absolute;
+  margin-left: 0;
+  margin-right:-50px;
+  max-width: 300px;
+  padding-right: 10px;
+  bottom: -140px;
+}
+@media (min-width: 850px) {
+  .content-block--small {
+    right: -80%;
+    bottom: -120px;
+  }
+}
+.content-block--small p {
+  padding-right: 0;
+}
+
+.container-fluid{
+   background-attachment: fixed;
+   background-image:url(http://www.fullhdwpp.com/wp-content/uploads/Brooklyng-Bridge_www.FullHDWpp.com_.jpg);
+   background-size: cover;
+   padding: 10px;
+}
+.profile{
+  position: absolute;
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+  height:510px;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  margin:10px;
+  padding:1% 50px;
+}
+
+.sidenav {
+  font-family: 'Bungee Hairline', cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.sidenav li {
+  list-style-type: none;
+  float: left;
+}
+
+.sidenav li a {
+    display: block;
+    color: #666;
+    font-size:20px;
+    width:200px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sidenav li a:hover {
+    border-top: 2px solid rgb(21, 53, 76);
+    border-bottom: 2px solid rgb(21, 53, 76);
+    transition: opacity 0.35s;
+    text-decoration: none !important;
+}
+
+.sidenav li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.examples{
+  position: relative;
+  float:left;
+  overflow:hidden;
+  width: 100%;
+  height: 100%;
+  height:110px;
+  background: rgba(255, 255, 255, 0.5);
+  margin:10px;
+  padding: 2px;
+}
+.examples :hover {
+opacity:0.2}
+.examples h2 {
+  padding-top: 2%;
+  font-family: 'Bungee Hairline', cursive;
+  text-align:center;
+  font-weight: bolder;
+}
+
+.profile img{
+  text-align:center;
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+  box-shadow:0 0 7px 3px #595654;
+  /*border:3px solid red;*/
+}
+
+.container h3, h4{
+  font-weight:bold;
+}
+.container p{
+  font-size:20px;
+  font-family:'Nueva Std',serif;
+  color:#3B363D;
+}
+.contents h4{
+  color:#363666;
+}
+.mcontent h4{
+  color:#553F5D;
+}
